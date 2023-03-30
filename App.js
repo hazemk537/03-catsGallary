@@ -1,33 +1,44 @@
 import React from "react"
+import Banner from "./Banner"
 import Contact from "./Contact"
 
 function App() {
     return (
+        <div className="body">
+            <Banner/>
         <div className="contacts">
+            
             <Contact 
                 img="./images/mr-whiskerson.png" 
-                name="Mr. Whiskerson"
+                name="Ze Zo"
                 phone="(212) 555-1234"
-                email="mr.whiskaz@catnap.meow"
+                email="Zezo@catnap.meow"
             />
             <Contact 
                 img="./images/fluffykins.png"
-                name="Fluffykins"
+                name="Me Zo"
                 phone="(212) 555-2345"
-                email="fluff@me.com"
+                email="Mezo@me.com"
             />
             <Contact 
                 img="./images/felix.png"
-                name="Felix"
+                name="Fe Zo"
                 phone="(212) 555-4567"
-                email="thecat@hotmail.com"
+                email="Fezo@hotmail.com"
             />
             <Contact 
                 img="./images/pumpkin.png"
-                name="Pumpkin"
+                name="Si Zo"
                 phone="(0800) CAT KING"
-                email="pumpkin@scrimba.com"
+                email="Sizo@scrimba.com"
             />
+             <Contact 
+                img="./images/mr-whiskerson.png" 
+                name="Ze Zo"
+                phone="(212) 555-1234"
+                email="Zezo@catnap.meow"
+            />
+        </div>
         </div>
     )
 }
