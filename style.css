@@ -9,6 +9,7 @@ body {
    
     font-family: 'Inter', sans-serif;
     background-color:rgb(235, 180, 113) ;
+    display:flex;
 
 }
 
@@ -70,6 +71,7 @@ flex-basis: 350px;
 color:rgb(65, 63, 61) ;
 
 text-align: center;
+
 }
 
 
@@ -81,14 +83,54 @@ text-align: center;
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }
+    
+    .banner > h2{
+        font-size: 90px ;
+        margin-bottom: 50px;
+    };
+
+    
   
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .contacts {
+     margin:auto;
+      width: 90%;
+      height:auto;
+
+
     }
+    .contact-card{
+
+       flex-basis: 400px;
+        height: 500;;
+    }
+    .contact-card >img{
+        height: 400;
+        object-fit: cover;
+    };
+    .banner > h2{
+        font-size: 90px ;
+        margin-bottom: 1000px ;
+    }
+    .card-info{
+        font-size: 50px;
+    }
+   
   }
+
+
+
+  @media screen and (max-width: 992) {
+
+
+    .info-group 
+    {
+        font-size: 30px;
+    };
+
+  } 
+  
+
+  /* Todo:browser zoo family fix
+  animation 
+  groupinfo increase font
+   */
