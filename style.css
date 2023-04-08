@@ -101,19 +101,21 @@ text-align: center;
     .contact-card{
 
        flex-basis: 400px;
-        height: 500;;
+        height: 510;;
     }
     .contact-card >img{
         height: 400;
         object-fit: cover;
+        margin-bottom: 5px;
     };
     .banner > h2{
         font-size: 90px ;
         margin-bottom: 1000px ;
     }
-    .card-info{
-        font-size: 50px;
-    }
+   p{
+
+    font-size: 20px !important;
+   }
    
   }
 
@@ -122,10 +124,10 @@ text-align: center;
   @media screen and (max-width: 992) {
 
 
-    .info-group 
+    /* .info-group 
     {
         font-size: 30px;
-    };
+    }; */
 
   } 
   

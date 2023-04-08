@@ -15,7 +15,7 @@ function App() {
                 email="Zezo@catnap.meow"
             />
             <Contact 
-                img="./images/fluffykins.png"
+                img="./images/mezo.webp"
                 name="Me Zo"
                 phone="(212) 555-2345"
                 email="Mezo@me.com"
@@ -27,7 +27,7 @@ function App() {
                 email="Fezo@hotmail.com"
             />
             <Contact 
-                img="./images/pumpkin.png"
+                img="./images/sizo.webp"
                 name="Si Zo"
                 phone="(0800) CAT KING"
                 email="Sizo@scrimba.com"
